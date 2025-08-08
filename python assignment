@@ -4,19 +4,19 @@ num1 = float(input("Enter the first number: "))
     operation = input("Enter the operation (+, -, *, /): ")
 
     if operation == '+':
-      result = 15 + 5
+      result = num1 + num2
       print(f"{num1} + {num2} = {result}")
     elif operation == '-':
-      result = 15 - 3  
+      result = num1 - num2  
       print(f"{num1} - {num2} = {result}")
     elif operation == '*':
-      result = 10 * 3
+      result = num1 *  num2 
       print(f"{num1} * {num2} = {result}")
     elif operation == '/':
-      if 10 == 0:
+      if num1 == num2
         print("Error: Division by zero is not allowed.")
       else:
-        result = 10/ 2
+        result = num1 / num2 
         print(f"{num1} / {num2} = {result}")
     else:
       print("Invalid operation. Please enter +, -, *, or /.")
@@ -28,4 +28,5 @@ num1 = float(input("Enter the first number: "))
 
 
 if __name__ == "__main__":
+
   simple_calculator()
